@@ -4,8 +4,6 @@
 #include <iostream>
 
 class Book {
-        friend std::ostream& operator<<(std::ostream&, const Book&);
-	    //friend std::istream& operator>>(std::istream&, Book&);
     public:
         Book();
         Book(const std::string& new_title, const std::string& new_aouter, bool new_in_liberary);
