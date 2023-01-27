@@ -1,14 +1,5 @@
 #include "book.h"
 
-std::ostream& operator<<(std::ostream& out, const Book& object) {
-			out << object.title << ' ';
-	return out;
-}
-
-// std::istream& operator>>(std::istream& in, BitVector& object) {
-	
-// }
-
 Book::Book() {}
 
 Book::Book(const std::string& new_title, const std::string& new_author, bool new_in_liberary)
